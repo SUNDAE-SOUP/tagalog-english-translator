@@ -31,7 +31,7 @@ $("form").submit(function (event) {
             method: "POST",
             headers: {
               "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
-                Authorization: "Bearer AIzaSyAnnZpF66HxifV8W56eo-jHmT-1_eRNfPk", // Replace with your actual Gemini API key
+                Authorization: "Bearer YOUR_API_KEY", // Replace with your actual Gemini API key
             },
             data: {
                 prompt: userMessage,
